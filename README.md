@@ -34,3 +34,7 @@ Epidemiological analyses conducted using SQL include:
 - Chronic disease risk factor assessment  
 - Clear communication of public health findings
 
+
+## Contact  
+For questions or collaboration, please contact:  
+**Rabiyatul Adawiyah** – rabiyatuladawiyahnasution@gmail.com
