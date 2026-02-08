@@ -21,14 +21,14 @@ Among 768 participants:
 - 268 (34.9%) had diabetes
 - 500 (65.1%) did not have diabetes
 
-  ## 🧪 Methods
+##🧪 Methods
 Epidemiological analyses conducted using SQL include:
 - Descriptive statistics
 - Exposure categorisation (e.g. BMI groups)
 - Outcome comparisons (diabetes vs no diabetes)
 - Preliminary risk factor exploration
 
-## 🔍 Key Skills Demonstrated
+##🔍 Key Skills Demonstrated
 - SQL for health data analysis  
 - Descriptive and analytic epidemiology  
 - Chronic disease risk factor assessment  
