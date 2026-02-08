@@ -1,3 +1,7 @@
+-- View the whole table
+SELECT *
+FROM diabetes_dataset
+
 -- Outcome distribution
 -- Outcome: 0 = no diabetes, 1 = diabetes
 
