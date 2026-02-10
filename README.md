@@ -21,6 +21,17 @@ Among 768 participants:
 - 268 (34.9%) had diabetes
 - 500 (65.1%) did not have diabetes
 
+## ❤️ BMI by Diabetes Outcome
+
+The mean body mass index (BMI) differed between participants with and without diabetes as shown below. 
+| Outcome | n_participants | Mean BMI |
+|--------|----------------|----------|
+| 0 (No diabetes) | 500 | 30.30 |
+| 1 (Diabetes) | 268 | 35.14 |
+
+This finding suggests a higher average BMI among individuals with diabetes in this dataset, consistent with established evidence linking obesity to increased risk of type 2 diabetes.
+
+
 ## 🧪 Methods
 Epidemiological analyses conducted using SQL include:
 - Descriptive statistics
