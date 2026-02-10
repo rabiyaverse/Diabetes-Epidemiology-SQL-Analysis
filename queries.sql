@@ -10,6 +10,20 @@ SELECT
 FROM diabetes_dataset
 GROUP BY outcome;
 
+-- Descriptive statistics by diabetes outcome
+SELECT
+    outcome,
+    COUNT(*) AS n_participants,
+    AVG(TRY_CAST(age AS FLOAT)) AS mean_age,
+    AVG(TRY_CAST(bmi AS FLOAT)) AS mean_bmi,
+    AVG(TRY_CAST(glucose AS FLOAT)) AS mean_glucose,
+    AVG(TRY_CAST(bloodpressure AS FLOAT)) AS mean_bp
+FROM dbo.diabetes_dataset
+WHERE
+    TRY_CAST(age AS FLOAT) IS NOT NULL
+    AND TRY_CAST(bmi AS FLOAT) IS NOT NULL
+GROUP BY outcome;
+
 -- Mean BMI and sample size by diabetes outcome
 SELECT
     outcome,
