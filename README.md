@@ -29,6 +29,7 @@ The mean body mass index (BMI) differed between participants with and without di
 |--------|----------------|----------|
 | 0 (No diabetes) | 500 | 30.30 |
 | 1 (Diabetes) | 268 | 35.14 |
+
 Table 1. BMI by Diabetes Outcome 
 
 This finding suggests a higher average BMI among individuals with diabetes in this dataset, consistent with established evidence linking obesity to increased risk of type 2 diabetes.
