@@ -16,10 +16,26 @@ The dataset includes 768 individuals and variables such as:
 - Pregnancies
 - Diabetes outcome (0 = no, 1 = yes)
 
-## 📈 Outcome distribution
-Among 768 participants:
-- 268 (34.9%) had diabetes
-- 500 (65.1%) did not have diabetes
+## 📊 Descriptive Characteristics of the Study Population
+
+### Outcome Distribution
+
+| Outcome | n | Percentage (%) |
+|--------|----:|---------------:|
+| No diabetes (0) | 500 | 65.1 |
+| Diabetes (1) | 268 | 34.9 |
+
+## Descriptive Characteristics of the Study Population
+
+| Variable | Mean | SD |
+|---------|-----:|---:|
+| Age (years) | 33.2 | 11.8 |
+| BMI (kg/m²) | 32.0 | 7.9 |
+| Glucose | 120.9 | 32.0 |
+| Blood Pressure | 69.1 | 19.4 |
+| **Total participants** | **768** | — |
+
+
 
 ## ❤️ BMI by Diabetes Outcome
 
