@@ -35,6 +35,10 @@ The dataset includes 768 individuals and variables such as:
 | Blood Pressure | 69.1 | 19.4 |
 | **Total participants** | **768** | — |
 
+Table 1. Descriptive Characteristics of the Study Population
+
+The study population consisted of 768 participants with a mean age of 33.2 years (SD = 11.8). The mean BMI was 32.0 kg/m² (SD = 7.9), indicating that, on average, participants were in the obese range. Mean glucose levels were 120.9, with substantial variability across the sample. Blood pressure also showed wide dispersion, suggesting heterogeneity in cardiometabolic risk profiles within the population.
+
 
 
 ## ❤️ BMI by Diabetes Outcome
@@ -46,7 +50,7 @@ The mean body mass index (BMI) differed between participants with and without di
 | 0 (No diabetes) | 500 | 30.30 |
 | 1 (Diabetes) | 268 | 35.14 |
 
-Table 1. BMI by Diabetes Outcome 
+Table 2. BMI by Diabetes Outcome 
 
 This finding suggests a higher average BMI among individuals with diabetes in this dataset, consistent with established evidence linking obesity to increased risk of type 2 diabetes.
 
