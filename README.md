@@ -58,6 +58,16 @@ Table 2. BMI by Diabetes Outcome
 
 This finding suggests a higher average BMI among individuals with diabetes in this dataset, consistent with established evidence linking obesity to increased risk of type 2 diabetes.
 
+## 📊 Mean Glucose by Diabetes Outcome
+
+| Outcome | Mean Glucose |
+|--------:|-------------:|
+| 1 (Diabetes) | 141.3 |
+| 0 (No diabetes) | 110.0 |
+
+Participants with diabetes had a substantially higher mean glucose level (141.3)
+compared to those without diabetes (110.0), demonstrating a strong association
+between elevated glucose and diabetes status.
 
 ## 🧪 Methods
 Epidemiological analyses conducted using SQL include:
