@@ -46,3 +46,10 @@ SELECT
   round(avg(try_cast(BloodPressure as float)), 1) as mean_bloodpressure 
 from diabetes_dataset
 group by outcome;
+
+-- Mean age by diabetes outcome 
+SELECT
+    outcome,
+    ROUND(AVG(TRY_CAST(age AS FLOAT)), 1) AS mean_age
+FROM diabetes_dataset
+GROUP BY outcome;
