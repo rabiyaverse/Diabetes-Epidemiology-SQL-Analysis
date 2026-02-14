@@ -39,3 +39,10 @@ SELECT
     ROUND(AVG(TRY_CAST(glucose AS FLOAT)), 1) AS mean_glucose
 FROM diabetes_dataset
 GROUP BY outcome;
+
+-- Mean blood pressure by diabetes outcome 
+SELECT 
+  outcome,
+  round(avg(try_cast(BloodPressure as float)), 1) as mean_bloodpressure 
+from diabetes_dataset
+group by outcome;
