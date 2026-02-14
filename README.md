@@ -83,6 +83,12 @@ Participants with diabetes had slightly higher mean blood pressure
 (70.8) compared to those without diabetes (68.2). The magnitude of
 difference was modest relative to glucose and BMI.
 
+## 📊 Mean Age by Diabetes Outcome
+
+| Outcome | Mean Age |
+|--------:|-------------------:|
+| 1 (Diabetes) | 37.1 |
+| 0 (No diabetes) | 31.2 |
 
 ## 🧪 Methods
 Epidemiological analyses conducted using SQL include:
