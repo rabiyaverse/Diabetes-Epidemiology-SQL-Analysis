@@ -65,9 +65,24 @@ This finding suggests a higher average BMI among individuals with diabetes in th
 | 1 (Diabetes) | 141.3 |
 | 0 (No diabetes) | 110.0 |
 
+Table 3 Glucose by Diabetes Outcome
 Participants with diabetes had a substantially higher mean glucose level (141.3)
 compared to those without diabetes (110.0), demonstrating a strong association
 between elevated glucose and diabetes status.
+
+## 📊 Mean Blood Pressure by Diabetes Outcome
+
+| Outcome | Mean Blood Pressure |
+|--------:|-------------------:|
+| 1 (Diabetes) | 70.8 |
+| 0 (No diabetes) | 68.2 |
+
+Table 4  Blood Pressure by Diabetes Outcome
+
+Participants with diabetes had slightly higher mean blood pressure
+(70.8) compared to those without diabetes (68.2). The magnitude of
+difference was modest relative to glucose and BMI.
+
 
 ## 🧪 Methods
 Epidemiological analyses conducted using SQL include:
