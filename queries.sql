@@ -33,4 +33,9 @@ FROM dbo.diabetes_dataset
 WHERE TRY_CAST(bmi AS FLOAT) IS NOT NULL
 GROUP BY outcome;
 
--- 
+-- Mean glucose level by diabetes outcome
+SELECT
+    outcome,
+    ROUND(AVG(TRY_CAST(glucose AS FLOAT)), 1) AS mean_glucose
+FROM diabetes_dataset
+GROUP BY outcome;
