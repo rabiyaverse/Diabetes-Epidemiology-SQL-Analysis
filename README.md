@@ -5,6 +5,11 @@ Practical epidemiology project using SQL on a Kaggle diabetes dataset to analyse
 This project uses SQL to conduct descriptive and analytic epidemiological analyses
 of diabetes risk factors in a cross-sectional dataset.
 
+## 🎯 Research Objective
+To examine the association between metabolic risk factors 
+(BMI, glucose, blood pressure, insulin, and pregnancies) 
+and diabetes status in a cross-sectional dataset using SQL.
+
 ## 📊 Dataset Overview
 The dataset includes 768 individuals and variables such as:
 - Age
@@ -38,7 +43,6 @@ The dataset includes 768 individuals and variables such as:
 Table 1. Descriptive Characteristics of the Study Population
 
 The study population consisted of 768 participants with a mean age of 33.2 years (SD = 11.8). The mean BMI was 32.0 kg/m² (SD = 7.9), indicating that, on average, participants were in the obese range. Mean glucose levels were 120.9, with substantial variability across the sample. Blood pressure also showed wide dispersion, suggesting heterogeneity in cardiometabolic risk profiles within the population.
-
 
 
 ## ❤️ BMI by Diabetes Outcome
