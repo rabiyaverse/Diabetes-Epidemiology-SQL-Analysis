@@ -58,3 +58,24 @@ The following number of zero values were recoded to NULL:
 Insulin and SkinThickness demonstrated substantial missingness,
 which may limit their reliability in analytic comparisons.
 
+## Calculate Percentage Missing
+
+After recoding implausible zero values to NULL, the proportion of missing data was evaluated.
+
+| Variable | Missing (%) |
+|----------|-------------|
+| Insulin | 48.7% |
+| SkinThickness | 29.6% |
+
+### Interpretation
+
+Nearly half of the insulin values (48.7%) were missing, and approximately one-third
+of skin thickness measurements (29.6%) were missing. 
+
+This substantial missingness may limit the reliability of analyses involving
+these variables and should be interpreted with caution.
+
+Variables such as BMI and Glucose demonstrated minimal missingness and were
+considered more robust for primary analyses.
+
+
