@@ -78,4 +78,25 @@ these variables and should be interpreted with caution.
 Variables such as BMI and Glucose demonstrated minimal missingness and were
 considered more robust for primary analyses.
 
+## 3️⃣ Validation Checks
+
+After correcting data types and handling missing values, minimum and maximum
+values were inspected to ensure biological plausibility.
+
+| Variable | Minimum | Maximum | Assessment |
+|----------|---------|---------|------------|
+| BMI | 18.2 | 67.1 | Within plausible human range (severe obesity possible) |
+| Glucose | 44 | 199 | Within physiologically plausible limits |
+| BloodPressure | 24 | 122 | Mostly plausible; one very low value noted |
+| Pregnancies | 0 | 9 | Realistic reproductive range |
+| Age | 21 | 81 | Appropriate adult age range |
+
+### Interpretation
+
+All variables fall within clinically reasonable ranges.  
+A very low blood pressure value (24 mmHg) was observed but retained,
+as isolated extreme values were minimal and not clearly erroneous.
+
+No additional range-based exclusions were required.
+
 
