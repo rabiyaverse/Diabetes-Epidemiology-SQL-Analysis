@@ -67,7 +67,7 @@ Participants with diabetes had a substantially higher mean glucose level (141.3)
 compared to those without diabetes (110.0), demonstrating a strong association
 between elevated glucose and diabetes status.
 
-## 📊 Mean Blood Pressure by Diabetes Outcome
+## Mean Blood Pressure by Diabetes Outcome
 
 | Outcome | Mean Blood Pressure |
 |--------:|-------------------:|
@@ -80,7 +80,7 @@ Participants with diabetes had slightly higher mean blood pressure
 (70.8) compared to those without diabetes (68.2). The magnitude of
 difference was modest relative to glucose and BMI.
 
-## 📊 Mean Age by Diabetes Outcome
+## Mean Age by Diabetes Outcome
 
 | Outcome | Mean Age |
 |--------:|-------------------:|
