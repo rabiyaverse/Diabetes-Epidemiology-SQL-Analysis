@@ -1,4 +1,4 @@
-# 🧹 Data Cleaning & Structure Audit
+#  Data Cleaning & Structure Audit
 
 ##  1️⃣ Data Type Audit
 
@@ -42,7 +42,7 @@ physiologically impossible:
 - SkinThickness
 - Insulin
 
-These zero values were recoded to NULL to properly represent missing data
+These zero values were recoded to NULL to represent missing data properly
 and prevent bias in statistical calculations.
 
 ## Missing Data Summary
