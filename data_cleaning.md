@@ -1,6 +1,6 @@
 # 🧹 Data Cleaning & Structure Audit
 
-## Initial Data Type Inspection
+##  1️⃣ Data Type Audit
 
 The dataset was imported from CSV, resulting in multiple
 numeric variables being stored as VARCHAR.
@@ -29,3 +29,32 @@ Correct data types are essential to:
 - Perform valid statistical aggregation (AVG, SUM)
 - Ensure proper logical comparisons
 - Avoid incorrect string-based comparisons
+
+
+## 2️⃣ Handling Implausible Values
+
+The dataset contained zero values for variables where zero is
+physiologically impossible:
+
+- BMI
+- Glucose
+- BloodPressure
+- SkinThickness
+- Insulin
+
+These zero values were recoded to NULL to properly represent missing data
+and prevent bias in statistical calculations.
+
+## Missing Data Summary
+
+The following number of zero values were recoded to NULL:
+
+- BMI: 11 records
+- Glucose: 5 records
+- BloodPressure: 35 records
+- SkinThickness: 227 records
+- Insulin: 374 records
+
+Insulin and SkinThickness demonstrated substantial missingness,
+which may limit their reliability in analytic comparisons.
+
