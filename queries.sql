@@ -53,3 +53,31 @@ SELECT
     ROUND(AVG(TRY_CAST(age AS FLOAT)), 1) AS mean_age
 FROM diabetes_dataset
 GROUP BY outcome;
+
+-- Diabetes Prevalence by BMI Category
+SELECT 
+    CASE 
+        WHEN TRY_CAST(Glucose AS FLOAT) < 100 THEN '<100 (Normal)'
+        WHEN TRY_CAST(Glucose AS FLOAT) BETWEEN 100 AND 125 THEN '100–125 (Impaired)'
+        WHEN TRY_CAST(Glucose AS FLOAT) >= 126 THEN '≥126 (High)'
+        ELSE 'Missing'
+    END AS glucose_category,
+
+    COUNT(*) AS n_total,
+    SUM(CASE WHEN Outcome = 1 THEN 1 ELSE 0 END) AS diabetes_n,
+
+    ROUND(
+        100.0 * SUM(CASE WHEN Outcome = 1 THEN 1 ELSE 0 END) / COUNT(*),
+        2
+    ) AS diabetes_percent
+
+FROM diabetes_dataset
+WHERE Glucose IS NOT NULL
+GROUP BY 
+    CASE 
+        WHEN TRY_CAST(Glucose AS FLOAT) < 100 THEN '<100 (Normal)'
+        WHEN TRY_CAST(Glucose AS FLOAT) BETWEEN 100 AND 125 THEN '100–125 (Impaired)'
+        WHEN TRY_CAST(Glucose AS FLOAT) >= 126 THEN '≥126 (High)'
+        ELSE 'Missing'
+    END
+ORDER BY glucose_category;
