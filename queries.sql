@@ -81,3 +81,32 @@ GROUP BY
         ELSE 'Missing'
     END
 ORDER BY glucose_category;
+
+-- Diabetes Prevalence by Age Group 
+SELECT 
+    CASE 
+        WHEN Age BETWEEN 21 AND 29 THEN '21–29'
+        WHEN Age BETWEEN 30 AND 39 THEN '30–39'
+        WHEN Age BETWEEN 40 AND 49 THEN '40–49'
+        WHEN Age >= 50 THEN '≥50'
+        ELSE 'Other'
+    END AS age_group,
+
+    COUNT(*) AS n_total,
+    SUM(CASE WHEN Outcome = 1 THEN 1 ELSE 0 END) AS diabetes_n,
+
+    ROUND(
+        100.0 * SUM(CASE WHEN Outcome = 1 THEN 1 ELSE 0 END) / COUNT(*),
+        2
+    ) AS diabetes_percent
+
+FROM diabetes_dataset
+GROUP BY 
+    CASE 
+        WHEN Age BETWEEN 21 AND 29 THEN '21–29'
+        WHEN Age BETWEEN 30 AND 39 THEN '30–39'
+        WHEN Age BETWEEN 40 AND 49 THEN '40–49'
+        WHEN Age >= 50 THEN '≥50'
+        ELSE 'Other'
+    END
+ORDER BY age_group;
