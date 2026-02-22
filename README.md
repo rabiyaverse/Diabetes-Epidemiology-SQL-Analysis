@@ -63,6 +63,7 @@ This finding suggests a higher average BMI among individuals with diabetes in th
 | 0 (No diabetes) | 110.0 |
 
 Table 3 Glucose by Diabetes Outcome
+
 Participants with diabetes had a substantially higher mean glucose level (141.3)
 compared to those without diabetes (110.0), demonstrating a strong association
 between elevated glucose and diabetes status.
@@ -151,6 +152,37 @@ Overall, diabetes prevalence more than doubles between the youngest and middle-a
 ### Public Health Insight
 
 The findings are consistent with established epidemiological evidence that age is a major non-modifiable risk factor for type 2 diabetes. The increasing prevalence across age groups supports the importance of early screening and preventive interventions before middle adulthood.
+
+## Glucose Categories and Diabetes Prevalence
+
+To examine the association between blood glucose levels and diabetes, glucose was categorised into clinically meaningful groups:
+
+- **Normal:** <100  
+- **Impaired (Prediabetes):** 100–125  
+- **High (Diabetic range):** ≥126  
+
+### Cross-Tabulation Results
+
+| Glucose Category | n | Diabetes (n) | Diabetes (%) |
+|------------------|----|--------------|--------------|
+| <100 (Normal) | 192 | 14 | 7.29% |
+| 100–125 (Impaired) | 274 | 76 | 27.74% |
+| ≥126 (High) | 297 | 176 | 59.26% |
+
+### Interpretation
+
+A very strong dose–response relationship is observed between glucose levels and diabetes prevalence:
+
+- Only **7.29%** of individuals with normal glucose had diabetes.
+- Prevalence increases to **27.74%** among those with impaired glucose.
+- It rises dramatically to **59.26%** in individuals with glucose ≥126.
+
+This represents more than an **eightfold difference in prevalence** between the normal and high glucose groups (59.26% vs 7.29%), indicating a very strong positive association.
+
+### Public Health Insight
+
+The marked gradient across glucose categories demonstrates biological plausibility and clinical relevance. Elevated glucose levels are strongly associated with diabetes status in this dataset, reinforcing the importance of early detection and glycaemic monitoring in diabetes prevention strategies.
+
 ## Methods
 Epidemiological analyses conducted using SQL include:
 - Descriptive statistics
