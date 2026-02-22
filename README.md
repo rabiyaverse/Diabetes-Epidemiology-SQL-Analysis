@@ -119,6 +119,38 @@ This represents nearly a **sevenfold difference in prevalence** between the norm
 
 The findings are consistent with established epidemiological evidence that higher BMI is a major risk factor for type 2 diabetes. The observed gradient strengthens the biological plausibility of this association.
 
+## Age Groups and Diabetes Prevalence
+
+To explore the relationship between age and diabetes, age was categorised into meaningful life-stage groups:
+
+- 21–29 years  
+- 30–39 years  
+- 40–49 years  
+- ≥50 years  
+
+### Cross-Tabulation Results
+
+| Age Group | n | Diabetes (n) | Diabetes (%) |
+|------------|----|--------------|--------------|
+| 21–29 | 396 | 84 | 21.21% |
+| 30–39 | 165 | 76 | 46.06% |
+| 40–49 | 118 | 65 | 55.08% |
+| ≥50 | 89 | 43 | 48.31% |
+
+### Interpretation
+
+A strong age-related gradient is observed in diabetes prevalence:
+
+- In the youngest group (21–29 years), diabetes prevalence is **21.21%**.
+- Prevalence increases sharply to **46.06%** in the 30–39 group.
+- It peaks at **55.08%** in individuals aged 40–49.
+- Among those aged ≥50, prevalence remains high at **48.31%**.
+
+Overall, diabetes prevalence more than doubles between the youngest and middle-aged groups, indicating a strong positive association between increasing age and diabetes in this dataset.
+
+### Public Health Insight
+
+The findings are consistent with established epidemiological evidence that age is a major non-modifiable risk factor for type 2 diabetes. The increasing prevalence across age groups supports the importance of early screening and preventive interventions before middle adulthood.
 ## Methods
 Epidemiological analyses conducted using SQL include:
 - Descriptive statistics
