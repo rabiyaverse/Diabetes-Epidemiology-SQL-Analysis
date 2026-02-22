@@ -87,6 +87,38 @@ difference was modest relative to glucose and BMI.
 | 1 (Diabetes) | 37.1 |
 | 0 (No diabetes) | 31.2 |
 
+Table 5 Mean Age by Diabetes Outcome 
+
+## BMI Categories and Diabetes Prevalence
+
+To examine the association between Body Mass Index (BMI) and diabetes, BMI was categorised into clinically meaningful groups:
+
+- **Normal:** <25  
+- **Overweight:** 25–29.9  
+- **Obese:** ≥30  
+
+### Cross-Tabulation Results
+
+| BMI Category | n | Diabetes (n) | Diabetes (%) |
+|--------------|----|--------------|--------------|
+| <25 (Normal) | 106 | 7 | 6.6% |
+| 25–29.9 (Overweight) | 179 | 40 | 22.35% |
+| ≥30 (Obese) | 472 | 219 | 46.4% |
+
+### Interpretation
+
+A clear **dose–response relationship** is observed. Diabetes prevalence increases progressively across BMI categories:
+
+- Only **6.6%** of individuals with normal BMI had diabetes.
+- Prevalence increases to **22.35%** among overweight individuals.
+- It rises sharply to **46.4%** among individuals with obesity.
+
+This represents nearly a **sevenfold difference in prevalence** between the normal and obese groups (46.4% vs 6.6%), indicating a strong positive association between higher BMI and diabetes in this dataset.
+
+### Public Health Insight
+
+The findings are consistent with established epidemiological evidence that higher BMI is a major risk factor for type 2 diabetes. The observed gradient strengthens the biological plausibility of this association.
+
 ## Methods
 Epidemiological analyses conducted using SQL include:
 - Descriptive statistics
